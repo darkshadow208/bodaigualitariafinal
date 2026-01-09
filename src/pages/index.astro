@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Banner from '../components/Banner.astro';
+import GuideBody from '../components/GuideBody.astro';
+
+import Navbar from '../components/Navbar.astro';
+
+
+
+import BrandInfo from '../components/BrandInfo.astro';
+import Footer from '../components/Footer.astro';
+
+---
+
+
+
+<Layout title="Home">
+	<Navbar />
+	<main class="min-h-screen">
+		
+		<Banner />
+		<GuideBody />
+		
+
+		
+		<div class="md:my-16"></div>
+
+
+		<div class="md:my-16"></div>
+
+
+		<div class="md:my-16"></div>
+
+
+		<div class="my-0 md:my-10"></div>
+		<BrandInfo />
+		<Footer />
+	</main>
+</Layout>
