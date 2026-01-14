@@ -16,36 +16,30 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en" class="dark">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="generator" content={Astro.generator} />
-		
-		<title>{`inicio | ${title}`}</title>
-		<meta name="description" content="Somos Tu San Agustín, una empresa especializada en realizar los mejores eventos sociales, empresariales y de ciudad. Ofrecemos asesoría en planeación, organización, logística, alimentación y decoración."/>
-		
-		<!-- Preload Critical Fonts -->
-		<link rel="preload" href="./Alice-Regular.ttf" as="font" type="font/ttf" crossorigin>
-		<link rel="preload" href="./Poppins-Regular_0.ttf" as="font" type="font/ttf" crossorigin>
+ <meta charset="UTF-8">
+      <meta name="description"
+      content="El amor es amor en cualquiera de sus formas Encontrar a esa persona ideal, que sea el cómplice perfecto para recorrer de principio a ...">
+<!-- Schema.org para Google+ -->
 
-		<!-- Preload LCP Image -->
-
-		<!-- Open Graph / SEO -->
-		<meta property="og:title" content={`inicio | ${title}`}/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:url" content="https://www.tusanagustin.com"/>
-		<meta property="og:image" content="https://www.tusanagustin.com/assets/media/logo-header-new_extraLargeThumb.webp"/>
-		<meta property="og:description" content="Especialistas en la planeación y organización de eventos sociales y empresariales en Antioquia."/>
-		<meta property="og:site_name" content="Tu San Agustín"/>
-		<meta property="og:locale" content="es_LA">
-
-		<!-- Twitter -->
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content={`inicio | ${title}`}>
-		<meta name="twitter:description" content="Especialistas en la planeación y organización de eventos sociales y empresariales en Antioquia.">
-		
-		<link rel="shortcut icon" href="https://www.tusanagustin.com/assets/media/logo-header-new_extraLargeThumb.webp">
-		<link rel="canonical" href="https://www.tusanagustin.com"/>
+<meta itemprop="name" content="BODAS IGUALITARIAS EN MEDELLÍN">
+<meta itemprop="description"
+      content="El amor es amor en cualquiera de sus formas Encontrar a esa persona ideal, que sea el cómplice perfecto para recorrer de principio a ...">
+<meta itemprop="image" content=" https://www.tusanagustin.com/assets/media/blog/bodas-igualitarias-en-medellin/272.jpg">
+<!-- Open Graph para Facebook-->
+<meta property="og:title" content="BODAS IGUALITARIAS EN MEDELLÍN"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.tusanagustin.com/blog/bodas-igualitarias-en-medellin"/>
+<meta property="og:image" content="https://www.tusanagustin.com/assets/media/blog/bodas-igualitarias-en-medellin/272.jpg"/>
+<meta property="og:description"
+      content="El amor es amor en cualquiera de sus formas Encontrar a esa persona ideal, que sea el cómplice perfecto para recorrer de principio a ..."/>
+<meta property="og:site_name" content="Tu San Agustin"/>
+<meta property="og:locale" content="es_LA">
 	</head>
+
+	<meta name="keywords" content="Viajes y turismo san agustín">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="Sn6woLackUqYanWzaUZGKRRqVT9twqtK2XgC4UVm"/>
+    <title>  BODAS IGUALITARIAS EN MEDELLÍN | Tu San Agustin</title>
 	<body class="min-h-screen font-sans antialiased">
 		<slot />
         <ScrollToTop />
